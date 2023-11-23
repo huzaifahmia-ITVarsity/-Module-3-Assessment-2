@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff8c00; /* Bright orange header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #ff6b6b; /* Bright red navigation background */
+    padding: 0;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.menu-category {
+    background-color: #f2f2f2; /* Light gray menu category background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    background-color: #ffffff; /* White menu item background */
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.03);
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555; /* Slightly brighter text color */
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff8c00; /* Bright orange price color */
+}
